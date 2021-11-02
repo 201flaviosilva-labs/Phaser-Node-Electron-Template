@@ -1,29 +1,21 @@
-# README #
+# Phaser Node Electron Template
 
-This README would normally document whatever steps are necessary to get your application up and running.
+## Description
 
-### What is this repository for? ###
+A Simple template with phaser and node and Electron, good for testing headless mode
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+## Links and References
+- [Electron](https://www.electronjs.org/);
+  - [Template - Quick Start](https://github.com/electron/electron-quick-start);
+- [Phaser](https://phaser.io/);
+  - [Phaser On Nodejs](https://github.com/geckosio/phaser-on-nodejs);
+- [Node](https://nodejs.org/en/);
 
-### How do I get set up? ###
+## Available Commands
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
-
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+| Command              | Description                                     |
+| -------------------- | ----------------------------------------------- |
+| `npm install`        | Install project dependencies                    |
+| `npm run electron`   | Start Electron version                          |
+| `npm run node-start` | Start server with basic node version            |
+| `npm run node-dev`   | Start server with nodemon (auto-update) version |

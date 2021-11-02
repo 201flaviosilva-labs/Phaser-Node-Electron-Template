@@ -1,0 +1,52 @@
+{
+  "name": "phaser-node-electron",
+  "version": "1.0.0",
+  "description": "This README would normally document whatever steps are necessary to get your application up and running.",
+  "main": "main.js",
+  "scripts": {
+    "electron": "electron .",
+    "node-start": "node src/index.js",
+    "node-dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "@geckos.io/phaser-on-nodejs": "^1.2.3",
+    "@geckos.io/snapshot-interpolation": "^1.0.1",
+    "bowser": "^2.11.0",
+    "phaser": "^3.*",
+    "phaser3-rex-plugins": "^1.1.53"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.2",
+    "@babel/preset-env": "^7.7.1",
+    "babel-loader": "^8.0.6",
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^6.4.1",
+    "css-loader": "^5.0.1",
+    "electron": "^15.3.0",
+    "electron-reload": "^2.0.0-alpha.1",
+    "electron-reloader": "^1.2.1",
+    "file-loader": "^4.3.0",
+    "html-webpack-plugin": "^3.2.0",
+    "nodemon": "^2.0.6",
+    "raw-loader": "^3.1.0",
+    "source-map-explorer": "^2.5.2",
+    "style-loader": "^2.0.0",
+    "terser-webpack-plugin": "^4.2.2",
+    "url-loader": "^4.1.1",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.11.0",
+    "webpack-merge": "^4.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/201flaviosilva/phaser-node-electron-template.git"
+  },
+  "keywords": [],
+  "author": "201flaviosilva",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://bitbucket.org/201flaviosilva/phaser-node-electron-template/issues"
+  },
+  "homepage": "https://bitbucket.org/201flaviosilva/phaser-node-electron-template#readme"
+}
